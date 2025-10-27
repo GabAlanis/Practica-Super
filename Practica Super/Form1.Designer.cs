@@ -48,7 +48,7 @@
             // 
             this.LabHora.AutoSize = true;
             this.LabHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabHora.Location = new System.Drawing.Point(151, 463);
+            this.LabHora.Location = new System.Drawing.Point(111, 450);
             this.LabHora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabHora.Name = "LabHora";
             this.LabHora.Size = new System.Drawing.Size(91, 37);
@@ -150,6 +150,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(879, 568);
             this.Controls.Add(this.label);
             this.Controls.Add(this.LabHora);
